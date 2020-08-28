@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+
+<head>
+<title>THE COLUMBIAN MAMMOTH</title>
+
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<meta name="description" content="Describes about Java data types" />
+<meta name="keywords" content="KEYWORDS,SEPARATED,BY,COMMAS,HERE" />
+<meta name="author" content="VASKAR DHAKAL" />
+<meta name="revised" content="10/07/2019" />
+ <link rel = "icon" href =  "logoicon.png" type = "image/x-icon"> 
+ <link href="https://fonts.googleapis.com/css?family=Catamaran|Gothic+A1&display=swap" rel="stylesheet"> 
+ <script type="text/javascript">
+ 	var isPlaying = false;
+ 	function play(){
+ 	if(!isPlaying){
+    var audio = document.getElementById("audio");     
+ 	audio.play();}
+ 	else
+ 	{
+    var audio = document.getElementById("audio");    
+    audio.pause();
+ 	}
+    
+    }
+audio.onplaying = function() {
+  isPlaying = true;
+}
+audio.onpause = function() {
+  isPlaying = false;
+}
+ </script>
+<style type="text/css">
+:root {
+  --mainColor: #74f7d8;
+}
+body
+{
+  background-image: -webkit-radial-gradient(circle,#1EBBD7, #189AD3, #2c3e50 );
+  background-image: -o-radial-gradient(circle,#1EBBD7, #189AD3, #2c3e50 );
+  background-image: radial-gradient(circle,#1EBBD7, #189AD3, #2c3e50 );
+  background-color: #2c3e50;
+ }
+ .containertop
+ {
+    color: white;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	position: relative; 
+ 	top: 100px;
+ }
+ .containerbottom
+ {
+    color: white;
+ 	display: flex;
+ 	justify-content: space-between; 
+ 	position: relative; 
+ 	top: 300px;
+ }
+ .icons
+ {
+ 	text-align: center;
+    width: 180px;
+ }
+ .icons img {
+    display: block;
+    margin: 0 auto;
+}
+a
+{
+
+font-family: 'Gothic A1', sans-serif;
+color: white;
+text-decoration: none;
+font-size: 2rem;
+outline: none;
+}
+a:hover
+{
+	transform: scale(1.1);
+}
+span
+{
+	 background:
+     linear-gradient(
+       to bottom,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent 5px
+     );
+    background-repeat: repeat-x;
+    background-size: 100%;
+  color: white;
+  padding-top: 10px;
+  text-decoration: none;
+}
+span:hover{
+background:
+     linear-gradient(
+       to bottom,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent
+     );
+ text-shadow: 1px 1px 2px black;
+}
+</style>
+</head>
+<body>
+
+	<div class = "containertop">
+	<a href="mainPage.html"><img src="logo.png" alt="logo of columbian mammoth" width="500" style="position: relative; top: 200px; z-index:4;filter: brightness(150%);">
+	</a>
+
+	<a href="looks.html" >
+    <div class = "icons">
+    <image src= "looks.png" alt="image of icons icon"  width="210"/>
+    <span>LOOKS</span>
+    </div>
+  	</a>
+  
+  	<a href = "#sound" onclick="play()">
+  	<audio id="audio" src="mammothSound.mp3" ></audio>
+    <div class = "icons">
+    <image src= "sounds.png" alt="image of icons icon"  width="210"/>
+    <span>SOUND</span>
+    </div>
+  </a>
+  <a href="eat.html" >
+    <div class = "icons">
+    <image src= "eat.png" alt="image of icons icon"  width="210"/>
+    <span>EAT</span>
+    </div>
+  </a>
+</div>
+	<div class = "containerbottom">
+		<div style="visibility: hidden">
+		<img src="logo.png" alt="logo of columbian mammoth" width="500" style=" z-index:4;filter: brightness(120%);">
+		</div>
+  <a href="live.html" >
+    <div class = "icons">
+    <image src= "live.png" alt="image of icons icon"  width="210"/>
+    <span>LIVE</span>
+    </div>
+  </a>
+  <a href="nature.html" >
+    <div class = "icons">
+    <image src= "nature.png" alt="image of icons icon"  width="210"/>
+    <span>NATURE</span>
+    </div>
+  </a>
+  <a href="poop.html" >
+    <div class = "icons">
+    <image src= "poop.png" alt="image of icons icon"  width="210"/>
+    <span>POOP</span>
+    </div>
+  </a>
+</div>
+
+	
+</body>
+</html>
